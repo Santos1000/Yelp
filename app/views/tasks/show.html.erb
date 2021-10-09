@@ -1,0 +1,7 @@
+<%= link_to "Delete #{@task.name}",
+            task_path(@task),
+            method: :delete,
+            data: { confirm: "Are you sure?" } %>
+<a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="">
+  Delete the spoon
+</a>
